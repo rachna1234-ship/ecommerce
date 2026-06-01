@@ -17,7 +17,8 @@ const filteredProducts=products.filter((product)=> product.title.toLowerCase().i
   
   useEffect(() => {
 
-    fetch("[https://ecommerce-production-9144.up.railway.app/products](https://ecommerce-production-9144.up.railway.app/products)")
+
+    fetch("http://localhost:5000/products")
 .then((res) => res.json())
 .then((data) => setProducts(data));
 }, []); 
