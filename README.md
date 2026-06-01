@@ -1,16 +1,50 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+E-Commerce Store
 
-Currently, two official plugins are available:
+A simple full-stack e-commerce web application built using React, Node.js, Express.js, and MongoDB.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Features
 
-## React Compiler
+- User Registration & Login
+- Product Listing
+- Add to Cart
+- Order Placement
+- Responsive Design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Tech Stack
 
-## Expanding the ESLint configuration
+Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React.js
+- Tailwind CSS
+
+Backend
+
+- Node.js
+- Express.js
+
+Database
+
+- MongoDB
+
+Installation
+
+Frontend
+
+npm install
+npm run dev
+
+Backend
+
+cd server
+npm install
+npm start
+
+Project Structure
+
+- "src/" → Frontend source code
+- "server/" → Backend source code
+
+Author
+
+Rachna Verma
