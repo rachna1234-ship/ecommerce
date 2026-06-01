@@ -16,7 +16,8 @@ const [search,setSearch]=useState("");
 const filteredProducts=products.filter((product)=> product.title.toLowerCase().includes(search.toLowerCase()))
   
   useEffect(() => {
-fetch("https://ecommerce-production-9144.up.railway.app/products")
+
+    fetch("[https://ecommerce-production-9144.up.railway.app/products](https://ecommerce-production-9144.up.railway.app/products)")
 .then((res) => res.json())
 .then((data) => setProducts(data));
 }, []); 
