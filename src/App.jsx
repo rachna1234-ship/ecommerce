@@ -16,7 +16,7 @@ const [search,setSearch]=useState("");
 const filteredProducts=products.filter((product)=> product.title.toLowerCase().includes(search.toLowerCase()))
   
   useEffect(() => {
-fetch("http://localhost:5000/products")
+fetch(`${import.meta.env.VITE_API_URL}/products`)
 .then((res) => res.json())
 .then((data) => setProducts(data));
 }, []); 
